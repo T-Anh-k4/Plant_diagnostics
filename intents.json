@@ -1,0 +1,363 @@
+{
+  "intents": [
+    {
+      "tag": "Chào",
+      "patterns": [ "Xin chào", "Hello", "Chào bạn", "Hi", "Hey", "Chào", "Chào buổi sáng", "Chào buổi tối" ],
+      "responses": [
+        "Xin chào! Rất vui được gặp bạn. Tôi là chatbot, có thể giúp bạn những gì về cây trồng và bệnh cây? Nếu bạn gặp vấn đề gì, tôi sẵn sàng hỗ trợ ngay lập tức!",
+        "Chào bạn! Tôi rất hân hạnh được trò chuyện với bạn. Nếu bạn cần bất kỳ sự trợ giúp nào về cây trồng hoặc bệnh cây, đừng ngần ngại hỏi tôi nhé.",
+        "Hello! Chào mừng bạn đến với dịch vụ tư vấn cây trồng. Nếu bạn cần tìm hiểu thêm về cách chăm sóc cây hay cách phòng ngừa bệnh cho cây, tôi có thể giúp bạn."
+      ]
+    },
+    {
+      "tag": "Tạm biệt",
+      "patterns": [ "Tạm biệt", "Bye", "Hẹn gặp lại", "Goodbye", "Tôi đi đây", "Tạm biệt nhé" ],
+      "responses": [
+        "Tạm biệt bạn! Chúc bạn một ngày tuyệt vời và cây cối của bạn luôn phát triển khỏe mạnh. Nếu cần hỗ trợ thêm, đừng quên quay lại nhé.",
+        "Hẹn gặp lại bạn! Hy vọng bạn sẽ có một ngày thật vui vẻ và cây cối sẽ phát triển tốt. Nếu cần bất cứ sự trợ giúp nào, tôi luôn sẵn sàng giúp đỡ.",
+        "Bye! Chúc bạn một ngày thật nhiều niềm vui và những cây trồng khỏe mạnh. Nếu có câu hỏi nào, bạn có thể quay lại và hỏi tôi bất cứ lúc nào!"
+      ]
+    },
+    {
+      "tag": "Bacteria",
+      "patterns": [ "Bệnh vi khuẩn là gì?", "Cây bị nhiễm vi khuẩn làm sao?", "Làm sao nhận biết bệnh vi khuẩn?", "Bệnh vi khuẩn gây hại như thế nào?" ],
+      "responses": [
+        "Bệnh vi khuẩn trên cây có thể gây ra những tổn thương nghiêm trọng nếu không được xử lý kịp thời. Các triệu chứng bao gồm lá cây bị vàng, héo, hoặc có các đốm đen. Để phòng ngừa, bạn cần đảm bảo cây có không gian thoáng mát, tránh làm ẩm ướt lá cây và kiểm soát môi trường xung quanh.",
+        "Khi cây bị nhiễm vi khuẩn, bạn có thể dùng các thuốc kháng sinh sinh học để điều trị. Tuy nhiên, việc phòng ngừa là quan trọng nhất, hãy luôn đảm bảo cây được chăm sóc tốt, không bị căng thẳng và luôn sạch sẽ. Ngoài ra, nếu cây có dấu hiệu bị bệnh, bạn cần loại bỏ các bộ phận bị nhiễm để ngăn chặn lây lan."
+      ]
+    },
+    {
+      "tag": "Fungi",
+      "patterns": [ "Cách trị bệnh nấm?", "Bệnh nấm trên cây làm sao?", "Cây bị nấm có nguy hiểm không?", "Làm sao nhận biết bệnh nấm trên cây?" ],
+      "responses": [
+        "Bệnh nấm trên cây thường xuất hiện với các dấu hiệu như đốm nâu, mốc trắng hoặc vết thối trên lá. Nếu không được điều trị, nấm có thể lan rộng và làm cây suy yếu. Để điều trị, bạn có thể sử dụng thuốc trừ nấm như sulfur hoặc neem oil, cũng như duy trì môi trường sạch sẽ và khô ráo.",
+        "Ngoài ra, để phòng ngừa bệnh nấm, bạn nên tránh tưới nước vào buổi tối và đảm bảo cây có đủ ánh sáng và không khí lưu thông. Nếu bệnh nấm quá nghiêm trọng, bạn có thể phải loại bỏ những phần cây bị nhiễm bệnh để ngăn ngừa sự lây lan."
+      ]
+    },
+    {
+      "tag": "Healthy",
+      "patterns": [ "Cách làm cho cây khỏe mạnh?", "Làm sao để cây phát triển tốt?", "Cây khỏe mạnh cần những gì?", "Tưới nước và bón phân như thế nào để cây khỏe mạnh?" ],
+      "responses": [
+        "Để cây phát triển khỏe mạnh, bạn cần chú ý đến 3 yếu tố chính: ánh sáng, nước và dinh dưỡng. Hãy đảm bảo cây nhận đủ ánh sáng mặt trời mỗi ngày, tưới nước đều đặn vào sáng sớm hoặc chiều tối để cây hấp thụ tốt nhất. Ngoài ra, việc bón phân hữu cơ định kỳ sẽ giúp cây có đủ dinh dưỡng để phát triển mạnh mẽ.",
+        "Cây khỏe mạnh còn cần môi trường sạch sẽ và không có sâu bệnh. Đảm bảo cây có không gian để phát triển và không bị nhiễm bệnh từ các cây khác. Đừng quên theo dõi thường xuyên để nhận diện sớm các dấu hiệu bất thường của cây."
+      ]
+    },
+    {
+      "tag": "Pests",
+      "patterns": [ "Cách diệt sâu ăn lá?", "Làm sao để diệt rệp trên cây?", "Cây bị sâu hại, làm sao đây?", "Có cách nào trị côn trùng không?" ],
+      "responses": [
+        "Sâu bọ là một trong những kẻ thù lớn nhất của cây trồng. Bạn có thể sử dụng các biện pháp tự nhiên như dầu neem hoặc xà phòng sinh học để diệt sâu. Nếu rệp hoặc sâu hại quá nhiều, có thể sử dụng thuốc trừ sâu sinh học để bảo vệ cây.",
+        "Ngoài ra, bạn có thể dùng thiên địch như bọ rùa để kiểm soát sâu bệnh một cách tự nhiên và bảo vệ môi trường. Hãy thường xuyên kiểm tra cây để phát hiện sớm sâu bệnh, tránh để chúng lan rộng."
+      ]
+    },
+    {
+      "tag": "Virus",
+      "patterns": [ "Cây bị nhiễm virus làm sao?", "Virus cây trồng có nguy hiểm không?", "Làm sao nhận biết cây bị virus?", "Bệnh virus có thể chữa trị không?" ],
+      "responses": [
+        "Virus là một trong những nguyên nhân khó điều trị nhất đối với cây trồng. Các triệu chứng bao gồm lá có đốm vàng, cây bị suy yếu và phát triển chậm. Hiện tại, không có phương pháp chữa trị virus hiệu quả, nhưng bạn có thể ngăn chặn sự lây lan bằng cách loại bỏ các cây nhiễm bệnh và khử trùng dụng cụ làm vườn.",
+        "Hãy đảm bảo không để virus lây lan sang các cây khỏe mạnh. Các biện pháp phòng ngừa như giữ cây ở nơi thoáng mát, tránh cho cây tiếp xúc với các cây bị bệnh sẽ giúp giảm nguy cơ nhiễm virus."
+      ]
+    },
+    {
+      "tag": "Lời khuyên cho người trồng",
+      "patterns": [
+        "Bạn có lời khuyên nào cho người trồng cây không?",
+        "Làm sao để cây trồng phát triển tốt?",
+        "Cây trồng của tôi cần chăm sóc gì?",
+        "Có mẹo nào giúp cây phát triển khỏe mạnh không?"
+      ],
+      "responses": [
+        "Một trong những lời khuyên quan trọng nhất khi trồng cây là luôn đảm bảo cây có đủ ánh sáng, nước và dinh dưỡng. Hãy tìm hiểu kỹ về loại cây mình trồng để biết chính xác nhu cầu của chúng.",
+        "Hãy kiểm tra đất thường xuyên, nếu đất quá khô hoặc quá ẩm, cây sẽ không phát triển tốt. Đảm bảo rằng đất có khả năng thoát nước tốt để tránh tình trạng úng nước.",
+        "Nếu bạn trồng cây trong chậu, hãy chú ý đến kích thước chậu sao cho phù hợp với sự phát triển của cây. Đừng để cây bị chật chội trong chậu quá lâu.",
+        "Bón phân hợp lý là yếu tố quan trọng để cây phát triển khỏe mạnh. Bạn nên bón phân hữu cơ và tránh bón phân quá nhiều đạm, vì nó có thể làm cây dễ bị sâu bệnh.",
+        "Ngoài ra, việc kiểm tra cây thường xuyên để phát hiện sớm các dấu hiệu của bệnh và sâu hại là điều rất quan trọng. Khi phát hiện, bạn có thể xử lý kịp thời để bảo vệ cây."
+      ]
+    },
+    {
+      "tag": "Cây có bệnh",
+      "patterns": [
+        "Có những cây nào hay bị bệnh?",
+        "Liệt kê một số cây dễ mắc bệnh?",
+        "Những cây nào dễ bị bệnh nấm, vi khuẩn?",
+        "Cây trồng nào thường xuyên gặp vấn đề về bệnh?"
+      ],
+      "responses": [
+        "Một số cây thường xuyên mắc bệnh bao gồm:",
+        "- **Cây cà chua**: hay mắc bệnh nấm và vi khuẩn, cần chăm sóc đặc biệt để tránh thối trái.",
+        "- **Cây khoai tây**: dễ bị nhiễm bệnh phấn trắng, cần kiểm tra kỹ để ngăn ngừa.",
+        "- **Cây hoa hồng**: dễ bị bệnh nấm và các bệnh liên quan đến vi khuẩn, cần phun thuốc trừ nấm định kỳ.",
+        "- **Cây bầu, bí**: có thể bị nhiễm bệnh phấn trắng, bón phân hợp lý để phòng ngừa.",
+        "- **Cây ớt**: dễ bị sâu bệnh và virus, cần kiểm tra kỹ và xử lý sớm.",
+        "Nếu bạn trồng các loại cây này, hãy chú ý chăm sóc và phòng ngừa bệnh sớm để cây phát triển khỏe mạnh."
+      ]
+    },
+    {
+      "tag": "Thuốc chữa bệnh Bacteria",
+      "patterns": [
+        "Thuốc chữa bệnh vi khuẩn trên cây?",
+        "Cây bị vi khuẩn cần dùng thuốc gì?",
+        "Điều trị bệnh do vi khuẩn cho cây?"
+      ],
+      "responses": [
+        "Bệnh vi khuẩn có thể được điều trị bằng các loại thuốc kháng vi khuẩn như:",
+        "- **Copper-based fungicides (Thuốc diệt nấm có chứa đồng)**: Thuốc này có tác dụng chống lại nhiều loại vi khuẩn gây bệnh.",
+        "- **Streptomycin**: Đây là thuốc kháng sinh được sử dụng để điều trị một số bệnh vi khuẩn như bệnh thối nhũn ở cà chua.",
+        "- **Bactericides**: Các thuốc này giúp diệt khuẩn hiệu quả và ngăn ngừa sự lây lan của bệnh vi khuẩn."
+      ]
+    },
+    {
+      "tag": "Thuốc chữa bệnh Fungi",
+      "patterns": [
+        "Thuốc trị bệnh nấm cho cây?",
+        "Cây bị nấm cần thuốc gì?",
+        "Cách trị bệnh nấm trên cây?"
+      ],
+      "responses": [
+        "Để điều trị bệnh nấm, bạn có thể sử dụng các loại thuốc sau:",
+        "- **Neem oil (Dầu neem)**: Một loại thuốc tự nhiên, có hiệu quả trong việc điều trị bệnh nấm và sâu bọ.",
+        "- **Mancozeb**: Thuốc diệt nấm phổ biến, đặc biệt hữu hiệu với bệnh nấm gỉ sắt và các bệnh nấm khác.",
+        "- **Sulfur-based fungicides (Thuốc diệt nấm chứa lưu huỳnh)**: Dùng để ngăn ngừa và điều trị bệnh phấn trắng và các bệnh nấm khác.",
+        "- **Copper-based fungicides (Thuốc diệt nấm có chứa đồng)**: Một lựa chọn hiệu quả cho các bệnh nấm trên lá và thân cây."
+      ]
+    },
+    {
+      "tag": "Thuốc chữa bệnh Healthy",
+      "patterns": [
+        "Cây khỏe mạnh có cần thuốc không?",
+        "Cần chăm sóc gì để cây luôn khỏe mạnh?"
+      ],
+      "responses": [
+        "Để giúp cây phát triển khỏe mạnh, bạn không cần thuốc đặc trị, nhưng có thể bổ sung các loại phân bón và các sản phẩm chăm sóc như:",
+        "- **Phân hữu cơ**: Giúp cây cung cấp đầy đủ dinh dưỡng từ đất.",
+        "- **Phân bón lá**: Tăng cường sức đề kháng cho cây và giúp cây phát triển tốt hơn.",
+        "- **Thuốc bổ sung vi lượng (Micronutrients)**: Đảm bảo cây có đủ vitamin và khoáng chất thiết yếu."
+      ]
+    },
+    {
+      "tag": "Thuốc chữa bệnh Pests",
+      "patterns": [
+        "Thuốc diệt sâu bệnh cho cây?",
+        "Cây bị sâu ăn lá cần dùng thuốc gì?",
+        "Điều trị côn trùng trên cây?"
+      ],
+      "responses": [
+        "Để diệt sâu và côn trùng trên cây, bạn có thể sử dụng các loại thuốc sau:",
+        "- **Insecticidal soap (Xà phòng diệt côn trùng)**: Hiệu quả với các loại rệp và côn trùng nhỏ.",
+        "- **Dầu neem**: Đây là một lựa chọn tự nhiên giúp diệt nhiều loại côn trùng gây hại.",
+        "- **Pyrethrin-based insecticides (Thuốc diệt côn trùng chứa Pyrethrin)**: Đây là một loại thuốc diệt côn trùng phổ biến và an toàn cho cây trồng.",
+        "- **Bacillus thuringiensis (BT)**: Đây là một loại thuốc sinh học diệt sâu bướm và sâu ăn lá hiệu quả."
+      ]
+    },
+    {
+      "tag": "Thuốc chữa bệnh Virus",
+      "patterns": [
+        "Thuốc chữa bệnh virus trên cây?",
+        "Cây bị virus cần điều trị như thế nào?",
+        "Điều trị bệnh virus cho cây trồng?"
+      ],
+      "responses": [
+        "Virus rất khó điều trị bằng thuốc, nhưng bạn có thể ngăn ngừa sự lây lan của virus bằng các biện pháp như:",
+        "- **Cắt bỏ bộ phận cây bị nhiễm virus**: Loại bỏ lá hoặc cành bị nhiễm để tránh lây lan sang các phần khác của cây.",
+        "- **Tăng cường sức đề kháng của cây**: Bón phân hữu cơ và bổ sung vi lượng để cây khỏe mạnh và chống lại sự lây nhiễm.",
+        "- **Dùng thuốc chống vi rút sinh học**: Một số thuốc sinh học có thể giúp giảm tác động của virus, nhưng không thể chữa trị hoàn toàn."
+      ]
+    },
+    {
+      "tag": "Thời tiết và nguyên nhân bệnh",
+      "patterns": [
+        "Thời tiết ảnh hưởng đến bệnh cây như thế nào?",
+        "Thời tiết xấu có thể làm cây mắc bệnh không?",
+        "Cây bị bệnh có phải do thời tiết không?",
+        "Nguyên nhân cây mắc bệnh là gì?"
+      ],
+      "responses": [
+        "Thời tiết có ảnh hưởng rất lớn đến sự phát triển của cây và có thể là nguyên nhân gây ra nhiều bệnh. Dưới đây là một số cách thời tiết có thể ảnh hưởng đến cây:",
+        "- **Nhiệt độ quá cao hoặc thấp**: Khi nhiệt độ thay đổi quá nhanh hoặc quá cực đoan, cây dễ bị sốc nhiệt, gây tổn thương cho lá và thân, từ đó tạo điều kiện cho các bệnh nấm và vi khuẩn phát triển.",
+        "- **Mưa nhiều**: Lượng mưa quá lớn tạo độ ẩm cao, tạo điều kiện cho nấm và vi khuẩn sinh sôi, dễ gây ra các bệnh như bệnh phấn trắng, bệnh gỉ sắt.",
+        "- **Khô hạn**: Khi cây thiếu nước, sức đề kháng giảm đi, cây dễ bị tấn công bởi sâu bệnh và bệnh nấm.",
+        "- **Độ ẩm cao**: Độ ẩm cao kéo dài là điều kiện lý tưởng cho các loại nấm và vi khuẩn phát triển, gây bệnh cho cây."
+      ]
+    },
+    {
+      "tag": "Giải pháp phòng ngừa bệnh cây",
+      "patterns": [
+        "Cách phòng ngừa bệnh cây khi thời tiết thay đổi?",
+        "Làm sao để phòng ngừa bệnh cây do mưa nhiều?",
+        "Cách ngăn ngừa bệnh nấm và vi khuẩn trên cây?",
+        "Giải pháp phòng bệnh cho cây trồng?"
+      ],
+      "responses": [
+        "Để phòng ngừa các bệnh cây do thời tiết và môi trường, bạn có thể áp dụng các biện pháp sau:",
+        "- **Giữ khoảng cách giữa các cây**: Đảm bảo không gian giữa các cây để không khí lưu thông tốt, giảm độ ẩm và ngăn ngừa sự phát triển của nấm và vi khuẩn.",
+        "- **Tưới nước hợp lý**: Tránh tưới nước quá muộn trong ngày, vì khi độ ẩm quá cao vào buổi tối, cây dễ bị nhiễm nấm. Tưới vào sáng sớm giúp cây hấp thụ nước tốt hơn.",
+        "- **Bón phân hợp lý**: Đảm bảo cây có đủ dinh dưỡng, nhưng tránh bón quá nhiều phân đạm vì nó có thể khiến cây dễ bị sâu bệnh hơn.",
+        "- **Cắt bỏ lá, cành bị nhiễm bệnh**: Thường xuyên kiểm tra cây và loại bỏ các bộ phận bị bệnh, giảm khả năng lây lan.",
+        "- **Sử dụng thuốc phòng ngừa**: Phun thuốc diệt nấm và vi khuẩn định kỳ để bảo vệ cây, đặc biệt trong mùa mưa hoặc khi độ ẩm cao."
+      ]
+    },
+    {
+      "tag": "Giải pháp điều trị bệnh cây",
+      "patterns": [
+        "Cây bị bệnh thì phải làm sao?",
+        "Điều trị bệnh nấm cho cây như thế nào?",
+        "Cây bị vi khuẩn cần chữa trị như thế nào?"
+      ],
+      "responses": [
+        "Khi cây mắc bệnh, bạn có thể áp dụng một số giải pháp điều trị sau:",
+        "- **Điều trị bệnh nấm**: Sử dụng các thuốc diệt nấm như **Mancozeb** hoặc **Dầu neem** để ngừng sự phát triển của nấm.",
+        "- **Điều trị bệnh vi khuẩn**: Dùng thuốc **Copper-based fungicides** hoặc **Streptomycin** để tiêu diệt vi khuẩn gây bệnh.",
+        "- **Điều trị bệnh sâu**: Sử dụng **Insecticidal soap** hoặc **Bacillus thuringiensis** để diệt sâu bọ gây hại cho cây.",
+        "- **Điều trị bệnh virus**: Dù virus không thể chữa trị hoàn toàn bằng thuốc, bạn có thể cắt bỏ phần cây bị nhiễm bệnh và tăng cường sức đề kháng cho cây bằng phân bón hợp lý và kiểm tra thường xuyên."
+      ]
+    },
+    {
+      "tag": "Lựa chọn giống cây trồng",
+      "patterns": [
+        "Giống cây nào phù hợp với khí hậu lạnh?",
+        "Cây trồng nào phù hợp với đất có độ pH thấp?",
+        "Lựa chọn giống cây trồng cho vùng đất nhiễm mặn?"
+      ],
+      "responses": [
+        "Một số giống cây phù hợp với đất pH thấp: cây khoai tây, cây rau họ cải...",
+        "Với khí hậu lạnh, bạn có thể trồng cây như cà rốt, khoai tây hoặc rau cải xoong.",
+        "Giống cây trồng cho đất nhiễm mặn như cây dừa, cây hành, hoặc cây dưa."
+      ]
+    },
+    {
+      "tag": "Phòng ngừa bệnh cây theo mùa",
+      "patterns": [
+        "Các bệnh cây thường gặp vào mùa hè?",
+        "Bệnh nấm xuất hiện nhiều khi vào mùa mưa?",
+        "Cách phòng ngừa bệnh cây vào mùa đông?"
+      ],
+      "responses": [
+        "Vào mùa hè, các bệnh như sâu bướm, bệnh nấm và bệnh héo rũ thường gặp.",
+        "Mùa mưa tạo điều kiện cho nấm và vi khuẩn phát triển mạnh, nhất là các bệnh như phấn trắng và bệnh gỉ sắt.",
+        "Mùa đông dễ gây ra bệnh thối rễ, vì vậy bạn cần hạn chế tưới nước và bảo vệ cây khỏi độ ẩm quá cao."
+      ]
+    },
+    {
+      "tag": "Canh tác hữu cơ",
+      "patterns": [
+        "Làm sao để canh tác hữu cơ hiệu quả?",
+        "Cách trồng cây mà không dùng hóa chất?"
+      ],
+      "responses": [
+        "Canh tác hữu cơ đòi hỏi bạn phải sử dụng phân bón hữu cơ, tránh sử dụng thuốc bảo vệ thực vật hóa học, và duy trì sự đa dạng sinh học trong vườn cây.",
+        "Bạn có thể sử dụng phân chuồng, phân xanh hoặc phân vi sinh để nuôi dưỡng đất một cách tự nhiên.",
+        "Bảo vệ cây trồng bằng các biện pháp tự nhiên như dùng bẫy côn trùng hoặc thiên địch như bọ rùa."
+      ]
+    },
+    {
+      "tag": "Chăm sóc cây trong điều kiện khắc nghiệt",
+      "patterns": [
+        "Làm sao để cây sống sót trong mùa khô hạn?",
+        "Chăm sóc cây trong mùa đông lạnh giá như thế nào?"
+      ],
+      "responses": [
+        "Trong mùa khô hạn, bạn cần tưới nước đều đặn, sử dụng lớp phủ đất để giữ ẩm và chọn giống cây chịu hạn tốt.",
+        "Trong mùa đông lạnh, bảo vệ cây khỏi gió lạnh bằng cách tạo lớp che chắn, đồng thời giảm lượng nước tưới để tránh thối rễ."
+      ]
+    },
+    {
+      "tag": "Giải pháp cải tạo đất",
+      "patterns": [
+        "Cải tạo đất trồng cà chua như thế nào?",
+        "Làm sao để đất trồng có độ pH phù hợp cho cây ăn quả?"
+      ],
+      "responses": [
+        "Để cải tạo đất trồng cà chua, bạn có thể bổ sung phân hữu cơ như phân bò hoặc phân trùn quế để tăng cường chất dinh dưỡng.",
+        "Để có đất trồng cây ăn quả, bạn cần điều chỉnh độ pH bằng cách bổ sung vôi nếu đất quá chua, hoặc dùng sulfur nếu đất quá kiềm."
+      ]
+    },
+    {
+      "tag": "Thuốc bảo vệ thực vật sinh học và hóa học",
+      "patterns": [
+        "Thuốc sinh học nào tốt cho cây trồng khi bị bệnh nấm?",
+        "Thuốc hóa học nào chữa bệnh vi khuẩn trên cây?"
+      ],
+      "responses": [
+        "Thuốc sinh học tốt cho cây trồng khi bị bệnh nấm gồm **Trichoderma** và **Dầu neem**.",
+        "Thuốc hóa học chữa bệnh vi khuẩn trên cây bao gồm các thuốc có thành phần **Copper-based fungicides** và **Streptomycin**."
+      ]
+    },
+    {
+      "tag": "Thông tin về các bệnh cây trồng",
+      "patterns": [
+        "Các bệnh nấm phổ biến trên cây trồng?",
+        "Cây trồng bị vi khuẩn làm sao nhận biết?",
+        "Bệnh sâu trên cây gây hại như thế nào?"
+      ],
+      "responses": [
+        "Các bệnh nấm phổ biến như bệnh phấn trắng, bệnh đốm nâu và bệnh rỉ sắt.",
+        "Bệnh vi khuẩn trên cây trồng thường có biểu hiện như lá chuyển vàng, các vết hoại tử trên lá hoặc thân cây.",
+        "Sâu bệnh trên cây có thể ăn lá, làm cây yếu đi và gây suy giảm năng suất. Các loại sâu hại phổ biến bao gồm sâu bướm và rệp."
+      ]
+    },
+    {
+      "tag": "Các biện pháp phòng ngừa bệnh cây",
+      "patterns": [
+        "Làm sao để phòng bệnh cho cây?",
+        "Cách ngăn ngừa bệnh nấm trên cây?"
+      ],
+      "responses": [
+        "Để phòng bệnh cho cây, bạn cần đảm bảo không khí lưu thông tốt, tránh để lá cây bị ẩm ướt trong thời gian dài.",
+        "Phòng ngừa bệnh nấm bằng cách không tưới nước vào buổi tối, sử dụng thuốc diệt nấm và loại bỏ phần cây bị bệnh."
+      ]
+    },
+    {
+      "tag": "Các loại bệnh do thời tiết",
+      "patterns": [
+        "Thời tiết có ảnh hưởng đến bệnh cây như thế nào?",
+        "Mưa nhiều có gây bệnh cho cây không?"
+      ],
+      "responses": [
+        "Thời tiết có ảnh hưởng lớn đến bệnh cây, mưa nhiều sẽ tạo độ ẩm cao, khiến bệnh nấm và vi khuẩn phát triển mạnh.",
+        "Mưa nhiều tạo điều kiện cho bệnh phấn trắng, bệnh gỉ sắt và bệnh nấm rễ phát triển. Hạn chế tưới nước quá nhiều vào mùa mưa."
+      ]
+    },
+    {
+      "tag": "Giải pháp điều trị bệnh cây",
+      "patterns": [
+        "Điều trị bệnh nấm cho cây như thế nào?",
+        "Cách điều trị cây bị vi khuẩn?"
+      ],
+      "responses": [
+        "Điều trị bệnh nấm bằng các thuốc như **Mancozeb**, **Dầu neem**, hoặc **Copper-based fungicides**.",
+        "Điều trị bệnh vi khuẩn bằng thuốc như **Streptomycin** và **Copper-based fungicides**."
+      ]
+    },
+    {
+      "tag": "Chăm sóc cây trong giai đoạn phát triển",
+      "patterns": [
+        "Cây cần chăm sóc gì khi ra hoa?",
+        "Làm sao chăm sóc cây trong giai đoạn ra quả?"
+      ],
+      "responses": [
+        "Khi cây ra hoa, hãy đảm bảo cây nhận đủ ánh sáng và dưỡng chất, tránh bón quá nhiều phân đạm.",
+        "Trong giai đoạn ra quả, cây cần nhiều nước và phân bón hữu cơ để phát triển quả khỏe mạnh."
+      ]
+    },
+    {
+      "tag": "Lời khuyên về cây trồng",
+      "patterns": [
+        "Cây của tôi bị héo, phải làm sao?",
+        "Cây ra hoa nhưng không ra quả, làm sao khắc phục?"
+      ],
+      "responses": [
+        "Nếu cây bị héo, kiểm tra xem đất có quá khô hoặc quá ẩm không. Đảm bảo cây được tưới đủ nước và không bị thiếu ánh sáng.",
+        "Nếu cây ra hoa nhưng không ra quả, có thể do thiếu dinh dưỡng hoặc bị bệnh. Hãy bổ sung phân bón và kiểm tra bệnh cây."
+      ]
+    },
+    {
+  "tag": "unknown",
+  "patterns": [],
+  "responses": [
+    "Xin lỗi, tôi chưa hiểu câu hỏi của bạn. Bạn có thể diễn đạt lại không?",
+    "Hiện tôi chưa có thông tin về vấn đề này. Bạn muốn hỏi về bệnh cụ thể nào trên cây?",
+    "Câu hỏi về bệnh cây phải không? Bạn có thể mô tả triệu chứng cụ thể hơn được không?"
+  ]
+    }
+  ]
+}

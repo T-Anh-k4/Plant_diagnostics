@@ -1,0 +1,69 @@
+{% extends "import.html" %}
+
+{% block content %}
+
+<center><h2>Plant Disease Classification Using Deep Learning</h2></center>
+
+<div class="container">
+    <!-- Bên trái: Upload ảnh -->
+    <div class="section">
+        <form id="upload-file" method="post" enctype="multipart/form-data">
+            <label><strong>Chọn ảnh cây cần chẩn đoán:</strong></label><br><br>
+            <input type="file" name="file" class="btn btn-success" id="imageUpload" accept=".png, .jpg, .jpeg"><br><br>
+        </form>
+
+        <div class="image-section" style="display:none;">
+            <img id="imagePreview" class="img-responsive" src="#" style="width:300px;height:300px;"/><br><br>
+            <div>
+                <button type="button" class="btn btn-info btn-lg" id="btn-predict">Predict!</button>
+            </div>
+        </div>
+
+        <div class="loader" style="display:none;"></div>
+        <h3 id="result"><span></span></h3>
+    </div>
+
+    <!-- Bên phải: Chatbot -->
+    <div class="section chat-container">
+        <div class="chat-header">Chatbot AI</div>
+        <div class="chat-box" id="chat-box"></div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Nhập tin nhắn..." onkeypress="handleKeyPress(event)">
+            <button id="send-btn">Gửi</button>
+        </div>
+    </div>
+
+<div class="chat-history-dropdown">
+    <button id="history-btn">📜 Xem lịch sử trò chuyện</button>
+    <button id="new-chat-btn">💬 Thêm mới cuộc trò chuyện</button>
+    <ul id="chat-history-list" class="chat-history-list" style="display:none;"></ul>
+</div>
+
+
+
+</div>
+
+{% endblock %}
+
+
+
+
+# @app.route('/predict', methods=['POST'])
+# def upload():
+#     if 'file' not in request.files:
+#         return "No file uploaded", 400
+#
+#     files = request.files.getlist('file')
+#     results = []
+#
+#     for f in files:
+#         filename = secure_filename(f.filename)
+#         file_path = os.path.join(UPLOAD_FOLDER, filename)
+#         f.save(file_path)
+#         predicted_label = predict_disease(file_path)
+#         results.append({
+#             "filename": filename,
+#             "prediction": predicted_label
+#         })
+#
+#     return jsonify(results)
